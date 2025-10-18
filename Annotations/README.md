@@ -1,0 +1,1 @@
+This folder is just for dump folder  to test if my Count_Name.py work or nah

@@ -1,0 +1,59 @@
+// name -- Blood Cell Datasets Link -- description ** (foot note / reminder)
+
+// total datasets link: 13 datasets link available right now
+// TODO
+// i hadn't check the dataset from number 8th to 13th. Need to verify if the link really provide dataset or just an article link.
+
+// Reminder: Some dataset might have anomaly variable like overlapped image, overlapped cell, etc. Or even worse, the dataset image uses different image format or different film. Please read the description in the dataset link first.
+
+// dataset no. 11th (Mahmudul Alam) doesn't need to be downloaded for now. Because The Complete Blood Cell Count Dataset in this repo is already from Mahmudul Alam.
+
+1. Blood Cell Segmentation Dataset -- https://www.kaggle.com/datasets/jeetblahiri/bccd-dataset-with-mask -- A total of 2656 images are available. 1328 Original blood cell images with 1328 corresponding ground truths. Out of that, Jeet B Lahiri separated the training and testing sets with 1169 images and 159 images respectively
+
+3. Blood Cell Images -- https://www.kaggle.com/datasets/paultimothymooney/blood-cells -- This dataset contains 12,500 augmented images of blood cells (JPEG) with accompanying cell type labels (CSV). There are approximately 3,000 images for each of 4 different cell types grouped into 4 different folders (according to cell type). The cell types are Eosinophil, Lymphocyte, Monocyte, and Neutrophil. This dataset is accompanied by an additional dataset containing the original 410 images (pre-augmentation) as well as two additional subtype labels (WBC vs WBC) and also bounding boxes for each cell in each of these 410 images (JPEG + XML metadata)
+
+4. https://data.mendeley.com/datasets/snkd93bnjr/1 -- The dataset contains a total of 17,092 images of individual normal cells, which were acquired using the analyzer CellaVision DM96 in the Core Laboratory at the Hospital Clinic of Barcelona. The dataset is organized in the following eight groups: neutrophils, eosinophils, basophils, lymphocytes, monocytes, immature granulocytes (promyelocytes, myelocytes, and metamyelocytes), erythroblasts and platelets or thrombocytes. The size of the images is 360 x 363 pixels, in format JPG, and they were annotated by expert clinical pathologists. The images were captured from individuals without infection, hematologic or oncologic disease and free of any pharmacologic treatment at the moment of blood collection.
+
+5. Berkeley Single-Cell Computational Microscopy (BSCCM) dataset -- https://datadryad.org/dataset/doi:10.5061/dryad.sxksn038s (or) https://github.com/Waller-Lab/BSCCM --  the Berkeley Single Cell Computational Microscopy (BSCCM) dataset, which contains over 400,000 images of individual white blood cells. The dataset contains images captured with multiple illumination patterns on an LED array microscope and fluorescent measurements of the abundance of surface proteins that mark different cell types.
+
+6. draaslaan blood cell detection -- https://huggingface.co/datasets/draaslan/blood-cell-detection -- This dataset contains annotated red blood cells(RBC) and white blood cells(WBC) from peripheral blood smear taken from a light microscope.
+
+7. Auralin Blood Cell Classification -- https://github.com/official-Auralin/Blood-Cell-Classification -- This project focuses on the classification of blood cells using a convolutional neural network (CNN) model implemented with TensorFlow. The datasets used in this project are BCCD Dataset, Complete Blood Count (CBC) Dataset, and PBC_dataset_Normal_DIB
+
+8. GTS Blood Cell Detection Dataset -- https://gts.ai/dataset-download/blood-cell-detection-datatset/ -- The Blood Cell Detection Dataset is a comprehensive collection of high-resoultion images. This dataset includes a wide variety of blood cell types such as RBC, WBC and Platelets. Each image is meticuluously annotated with bounding boxes, and labels, ensuring precise identification and classification, or different blood cells.
+
+9. images.cv Blood cell Labeled Image DatasetBlood cell Labeled Image Dataset -- https://images.cv/dataset/blood-cell-image-classification-dataset -- This dataset is can be used for image classification, object detection, image segmentation and other computer vision tasks, like image recognition and image generation
+
+10. Deponker Blood Cell Segmentation Dataset -- https://github.com/Deponker/Blood-cell-segmentation-dataset -- With the advent of deep learing algorithms in medial domain, there is a need for quality and large datasets. In this work, we introduced the largest microscopic blood cell segmentation dataset and benchmark different state-of-the-art algorithms on it.
+Figure: We have presented original blood smear image (left) and corresponding annotated segmentation mask (right).
+
+11. Mahmudul Alam Complete Blood Cell Count Dataset -- https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset -- The complete blood count (CBC) dataset contains 360 blood smear images along with their annotation files splitting into Training, Testing, and Validation sets. The training folder contains 300 images with annotations. The testing and validation folder both contain 60 images with annotations. we clear up all the fallacious files and split the dataset into three parts. Among the 360 smear images, 300 blood cell images with annotations are used as the training set first, and then the rest of the 60 images with annotations are used as the testing set. Due to the shortage of the data, a subset of the training set is used to prepare the validation set which contains 60 images with annotations.
+
+12. springernature A large-scale high-resolution WBC image dataset -- https://springernature.figshare.com/articles/dataset/A_large-scale_high-resolution_WBC_image_dataset/22680517?file=40260787 -- The dataset comprises 16 027 single cell images of normal and pathological white blood cells, including neutrophil segments, neutrophil bands, eosinophiles, basophiles, lymphocytes, monocytes, normoblasts and blast cells of myeloid and lymphoid lineage.
+
+13. ScienceDirect A dataset of microscopic peripheral blood cell images for development of automatic recognition systems -- https://www.sciencedirect.com/science/article/pii/S2352340920303681 -- The dataset contains a total of 17,092 images of individual normal cells, which were acquired using the analyzer CellaVision DM96 in the Core Laboratory at the Hospital Clinic of Barcelona. The dataset is organized in the following eight groups: neutrophils, eosinophils, basophils, lymphocytes, monocytes, immature granulocytes (promyelocytes, myelocytes, and metamyelocytes), erythroblasts and platelets or thrombocytes. The size of the images is 360 × 363 pixels, in format jpg, and they were annotated by expert clinical pathologists. 
+
+14. Raabin WBC First microscope Images Dataset -- http://dl.raabindata.com/WBC/First_microscope/ -- Note that the images of each blood film are placed in separate folders. Corresponding to each microscopic image, a dictionary (.json format) file containing the following information about that image was provided:
+Information about the blood elements in the image including their coordinates and labels.
+Information about the blood smears including staining method and the type of the disease.
+Information about the microscope includes the type of microscope and its magnification size.
+** All dataset in this link only highlight the WBC (might be, i didnt check it that deep tho)
+
+15. Raabin WBC Second microscope Images Dataset -- http://dl.raabindata.com/WBC/Second_microscope/ -- Note that the images of each blood film are placed in separate folders. Corresponding to each microscopic image, a dictionary (.json format) file containing the following information about that image was provided:
+Information about the blood elements in the image including their coordinates and labels.
+Information about the blood smears including staining method and the type of the disease.
+Information about the microscope includes the type of microscope and its magnification size.
+** All dataset in this link only highlight the WBC (might be, i didnt check it that deep tho)
+
+16. Thalassemia PBS UGM mendeley dataset -- https://data.mendeley.com/datasets/gd9ysj73jd/1 -- The ThalassemiaPBS dataset is a peripheral blood smear images collected from four thalassemia patients. At present, it is infrequent for a public dataset to relate to microscopic images of thalassemia's peripheral blood smear. Therefore, this dataset will be a source of data for computer application researchers related to thalassemia
+
+17. RBC dataset UGM mendeley dataset -- https://data.mendeley.com/datasets/rfdz6wfzn4/1 -- The RBCdataset is a single erythrocyte dataset collected from thalassemia's peripheral blood smear. This dataset will be a source of data for computer application researchers related to RBC classification in thalassemia cases.
+
+18. Zenodo Red Blood Cell RedTell Dataset -- https://zenodo.org/records/7801430 -- The dataset contains microscopic images of red blood cells (RBCs) and consists of two parts:
+    1. dse_data.zip
+    This dataset includes brightfield images of healthy control individuals obtained in the scope of the CoMMiTMenT study. The images are annotated on a single cell level for segmentation and classification (discocyte-stomatocyte-echinocyte sequence) purposes. 
+    2. anemia_data.zip
+    This dataset includes brightfield and fluorescent images of RBCs of sickle cell disease (SCD) patients from the MemSID study as well as of thalassemia patients and healthy controls from the CoMMiTMenT study.
+
+19. Roboflow BCCD Dataset -- https://public.roboflow.com/object-detection/bccd -- This is a dataset of blood cells photos, originally open sourced by cosmicad and akshaylambda.
+There are 364 images across three classes: WBC (white blood cells), RBC (red blood cells), and Platelets. There are 4888 labels across 3 classes (and 0 null examples). This is a small scale object detection dataset, commonly used to assess model performance. It's a first example of medical imaging capabilities.
