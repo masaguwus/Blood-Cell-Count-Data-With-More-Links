@@ -36,8 +36,8 @@ def turn_txt_to_csv(txt_file_path):
                 first_split_index = data[0].split('.', maxsplit=1)
                 index = first_split_index[0].strip()
                 title = first_split_index[1].strip()
-                description = data[1].strip()
-                link = data[2].strip()
+                link = data[1].strip()
+                description = data[2].strip()
                 csvwriter.writerow([index, title, description, link])
 
     return csv_file_path
